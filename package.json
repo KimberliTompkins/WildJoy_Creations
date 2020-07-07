@@ -20,7 +20,8 @@
     "styled-components": "^5.0.1",
     "tailwindcss": "^1.2.0",
     "twin.macro": "^1.0.0-alpha.7",
-    "use-in-view": "^1.0.15"
+    "use-in-view": "^1.0.15",
+    "websocket-extensions": "^0.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

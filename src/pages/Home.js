@@ -18,14 +18,14 @@ import logo from "images/WJCLogo.png";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
-  const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
-  const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
+  const HighlightedText = tw.span`text-orange-400 px-6 transform -skew-x-12 inline-block`;
+  const HighlightedTextInverse = tw.span`text-primary-500 px-6 transform -skew-y-12 inline-block`;
   const Description = tw.span`inline-block mt-8`;
   const imageCss = tw`rounded-4xl`;
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>Custom Designs<HighlightedText>That express your style.</HighlightedText></>}
+        heading={<>Custom Designs<HighlightedText>Express your unique sytle</HighlightedText></>}
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         imageSrc={logo}
         imageCss={imageCss}
