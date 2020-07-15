@@ -9,9 +9,9 @@ import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js"
 
 import Footer from "components/footers/MiniCenteredFooter.js";
 
-import chefIconImageSrc from "images/chef-icon.svg";
+import shirtIconImageSrc from "images/shirt-icon.svg";
 import celebrationIconImageSrc from "images/celebration-icon.svg";
-import shopIconImageSrc from "images/shop-icon.svg";
+import photoIconImageSrc from "images/photo-icon.svg";
 import logo from "images/WJCLogo.png";
 import mainImage from "images/shirts/praisethelord.jpg";
 
@@ -24,12 +24,12 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>Custom Designs That<HighlightedText>Express your unique sytle</HighlightedText></>}
+        heading={<>Custom Designs That<HighlightedText>Express your unique style</HighlightedText></>}
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         imageSrc={logo}
         imageCss={imageCss}
         imageDecoratorBlob={true}
-        primaryButtonText="Get Quote"
+        primaryButtonText="Get A Quote"
         
       />
             <Features
@@ -40,20 +40,20 @@ export default () => {
         }
         cards={[
           {
-            imageSrc: shopIconImageSrc,
-            title: "230+ Locations",
+            imageSrc: shirtIconImageSrc,
+            title: "T-Shirts",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
             url: "https://google.com"
           },
           {
-            imageSrc: chefIconImageSrc,
-            title: "Professional Chefs",
+            imageSrc: photoIconImageSrc,
+            title: "Photo Creations",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
             url: "https://timerse.com"
           },
           {
             imageSrc: celebrationIconImageSrc,
-            title: "Birthday Catering",
+            title: "Everything Else",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
             url: "https://reddit.com"
           }

@@ -24,7 +24,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
  * separately
  */
 
- import Hero from "components/hero/TwoColumnWithVideo.js";
+//  import Hero from "components/hero/TwoColumnWithVideo.js";
 // import Hero from "components/hero/TwoColumnWithInput.js";
 // import Hero from "components/hero/TwoColumnWithFeaturesAndTestimonial.js";
 // import Hero from "components/hero/TwoColumnWithPrimaryBackground.js";
@@ -32,14 +32,14 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import Hero from "components/hero/BackgroundAsImage.js";
 // import Hero from "components/hero/BackgroundAsImageWithCenteredContent.js";
 
- import Features from "components/features/ThreeColSimple.js";
+//  import Features from "components/features/ThreeColSimple.js";
 // import Features from "components/features/ThreeColWithSideImage.js";
 // import Features from "components/features/ThreeColWithSideImageWithPrimaryBackground.js";
 // import Features from "components/features/VerticalWithAlternateImageAndText.js";
 // import Features from "components/features/DashedBorderSixFeatures";
- import MainFeature from "components/features/TwoColWithButton.js";
+//  import MainFeature from "components/features/TwoColWithButton.js";
 // import MainFeature from "components/features/TwoColSingleFeatureWithStats.js";
- import MainFeature2 from "components/features/TwoColSingleFeatureWithStats2.js";
+//  import MainFeature2 from "components/features/TwoColSingleFeatureWithStats2.js";
 // import MainFeature from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
 // import FeatureWithSteps from "components/features/TwoColWithSteps.js";
 // import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
@@ -51,7 +51,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import SliderCard from "components/cards/ThreeColSlider.js";
 // import TrendingCard from "components/cards/TwoTrendingPreviewCardsWithImage.js";
 // import Portfolio from "components/cards/PortfolioTwoCardsWithImage.js";
- import TabGrid from "components/cards/TabCardGrid.js";
+//  import TabGrid from "components/cards/TabCardGrid.js";
 
 // import Blog from "components/blogs/ThreeColSimpleWithImage.js";
 // import Blog from "components/blogs/ThreeColSimpleWithImageAndDashedBorder.js";
@@ -61,7 +61,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import Testimonial from "components/testimonials/TwoColumnWithImage.js";
 // import Testimonial from "components/testimonials/TwoColumnWithImageAndProfilePictureReview.js";
 // import Testimonial from "components/testimonials/TwoColumnWithImageAndRating.js";
- import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
+//  import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
 // import Testimonial from "components/testimonials/SimplePrimaryBackground.js";
 
 // import FAQ from "components/faqs/SimpleWithSideImage.js";
@@ -74,10 +74,10 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 //
 // import GetStarted from "components/cta/GetStarted.js";
 // import GetStarted from "components/cta/GetStartedLight.js";
- import DownloadApp from "components/cta/DownloadApp.js";
-
+//  import DownloadApp from "components/cta/DownloadApp.js";
+// 
 // import Footer from "components/footers/SimpleFiveColumn.js";
- import Footer from "components/footers/FiveColumnWithInputForm.js";
+//  import Footer from "components/footers/FiveColumnWithInputForm.js";
 // import Footer from "components/footers/FiveColumnWithBackground.js";
 // import Footer from "components/footers/FiveColumnDark.js";
 // import Footer from "components/footers/MiniCenteredFooter.js";
@@ -92,8 +92,8 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
 /* Inner Pages */
-// import LoginPage from "pages/Login.js";
-// import SignupPage from "pages/Signup.js";
+//  import LoginPage from "pages/Login.js";
+//  import SignupPage from "pages/Signup.js";
 // import PricingPage from "pages/Pricing.js";
 // import AboutUsPage from "pages/AboutUs.js";
 // import ContactUsPage from "pages/ContactUs.js";

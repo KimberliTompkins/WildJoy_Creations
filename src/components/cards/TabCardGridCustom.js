@@ -10,6 +10,14 @@ import { ReactComponent as StarIcon } from "images/star-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-7.svg";
 import shirtImage1 from "images/shirts/praisethelord.jpg";
+import shirtImage2 from "images/shirts/merica.jpg";
+import shirtImage3 from "images/shirts/letsdoit.jpg";
+import shirtImage4 from "images/shirts/mamabearblack.jpg";
+import shirtImage5 from "images/shirts/nevergoingtorecover.jpg";
+import shirtImage6 from "images/shirts/mamabearpink.jpg";
+import shirtImage7 from "images/shirts/witchin.jpg";
+import shirtImage8 from "images/shirts/superpower.jpg";
+
 
 const HeaderRow = tw.div`flex justify-between items-center flex-col xl:flex-row`;
 const Header = tw(SectionHeading)``;
@@ -67,55 +75,49 @@ export default ({
       {
         imageSrc:shirtImage1,
         title: "Pass the Ammunition",
+        content: "",
         url: "#"
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Macaroni",
-        content: "Cheese Pizza",
+        imageSrc:shirtImage2,
+        title: "Merica",
+        content: "",
         url: "#"
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327??ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Nelli",
-        content: "Hamburger & Fries",
+        imageSrc:shirtImage3,
+        title: "Let's Do It",
+        content: "",
         url: "#"
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Jalapeno Poppers",
-        content: "Crispy Soyabeans",
+        imageSrc:shirtImage4,
+        title: "Mama Bear",
+        content: "",
         url: "#"
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Cajun Chicken",
-        content: "Roasted Chicken & Egg",
+        imageSrc:shirtImage5,
+        title: "Financial Recovery?",
+        content: "",
         url: "#"
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1550461716-dbf266b2a8a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Chillie Cake",
-        content: "Deepfried Chicken",
+        imageSrc:shirtImage6,
+        title: "Mama Bear 2",
+        content: "",
         url: "#"
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Guacamole Mex",
-        content: "Mexican Chilli",
+        imageSrc:shirtImage7,
+        title: "Witching in the Dark",
+        content: "",
         url: "#"
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1565310022184-f23a884f29da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Carnet Nachos",
-        content: "Chilli Crispy Nachos",
+        imageSrc:shirtImage8,
+        title: "Teaching is M y Superpower",
+        content: "",
         url: "#"
       }
     ],
