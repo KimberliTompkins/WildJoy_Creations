@@ -9,12 +9,17 @@ import useAnimatedNavToggler from "../../helpers/useAnimatedNavToggler.js";
 import logo from "../../images/WJCLogo.png";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
-
+import LoginButton from '../Loginbutton'
 const Header = tw.header`
   flex justify-between items-center
   max-w-screen-xl mx-auto
 `;
-
+const styles = {
+   flex: {
+      flex: 1,
+    },
+  };
+  
 export const NavLinks = tw.div`inline-block`;
 
 /* hocus: stands for "on hover or focus"
@@ -76,10 +81,12 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/#">Blog</NavLink>
       <NavLink href="/#">Pricing</NavLink>
       <NavLink href="/#">Contact Us</NavLink>
-      <NavLink href="/#" tw="lg:ml-12!">
-        Login
-      </NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Sign Up</PrimaryLink>
+      {/* <NavLink href="/#" tw="lg:ml-12!"> */}
+        {/* Login */}
+      {/* </NavLink> */}
+    
+      <LoginButton />
+      {/* <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Sign Up</PrimaryLink> */}
     </NavLinks>
   ];
 
