@@ -13,7 +13,7 @@ import shirtIconImageSrc from "images/shirt-icon.svg";
 import celebrationIconImageSrc from "images/celebration-icon.svg";
 import cupIconImageSrc from "images/cup.svg";
 import logo from "images/WJCLogo.png";
-import mainImage from "images/shirts/praisethelord.jpg";
+
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
