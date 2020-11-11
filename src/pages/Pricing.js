@@ -1,6 +1,6 @@
 import React from "react";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
-import Header from "components/HOLDheaders/light.js";
+import Header from "components/headers/light.js";
 import Pricing from "components/1pricing/TwoPlansWithDurationSwitcher.js";
 import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
 import Footer from "components/footers/FiveColumnWithInputForm.js";

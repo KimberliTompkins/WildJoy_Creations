@@ -9,16 +9,6 @@ import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { ReactComponent as StarIcon } from "images/star-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-7.svg";
-import shirtImage1 from "images/shirts/praisethelord.jpg";
-import shirtImage2 from "images/shirts/merica.jpg";
-import shirtImage3 from "images/shirts/letsdoit.jpg";
-import shirtImage4 from "images/shirts/mamabearblack.jpg";
-import shirtImage5 from "images/shirts/nevergoingtorecover.jpg";
-import shirtImage6 from "images/shirts/mamabearpink.jpg";
-import shirtImage7 from "images/shirts/witchin.jpg";
-import shirtImage8 from "images/shirts/superpower.jpg";
-
-
 const HeaderRow = tw.div`flex justify-between items-center flex-col xl:flex-row`;
 const Header = tw(SectionHeading)``;
 const TabsControl = tw.div`flex flex-wrap bg-gray-200 px-2 py-2 rounded leading-none mt-12 xl:mt-0`;
@@ -73,66 +63,101 @@ export default ({
    
     Shirts: [
       {
-        imageSrc:shirtImage1,
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/praisethelord.jpg",
         title: "Pass the Ammunition",
         content: "",
-        url: "#"
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/praisethelord.jp"
       },
       {
-        imageSrc:shirtImage2,
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/merica.jpg",
         title: "Merica",
         content: "",
-        url: "#"
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/merica.jpg"
       },
       {
-        imageSrc:shirtImage3,
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/letsdoit.jpg",
         title: "Let's Do It",
         content: "",
-        url: "#"
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/letsdoit.jpg"
       },
       {
-        imageSrc:shirtImage4,
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/mamabearblack.jpg",
         title: "Mama Bear",
         content: "",
-        url: "#"
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/mamabearblack.jpg"
       },
       {
-        imageSrc:shirtImage5,
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/nevergoingtorecover.jpg",
         title: "Financial Recovery?",
         content: "",
-        url: "#"
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/nevergoingtorecover.jpg"
       },
       {
-        imageSrc:shirtImage6,
-        title: "Mama Bear 2",
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/fab.jpg",
+        title: "Fabulous",
         content: "",
-        url: "#"
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/fab.jpg"
       },
       {
-        imageSrc:shirtImage7,
-        title: "Witching in the Dark",
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/Balls.jpg",
+        title: "Balls",
         content: "",
-        url: "#"
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/Balls.jpg"
       },
       {
-        imageSrc:shirtImage8,
-        title: "Teaching is M y Superpower",
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/ainteasy.jpg",
+        title: "Mommin Aint Easy",
         content: "",
-        url: "#"
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/ainteasy.jpg"
       }
     ],
     Masks: [
-     { 
-       imageSrc:
-      "https://images.unsplash.com/photo-1565310022184-f23a884f29da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-    title: "Carnet Nachos",
-    content: "Chilli Crispy Nachos",
-    price: "$3.99",
-    rating: "3.9",
-    reviews: "26",
-    url: "#"
-  }
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/masks/cats1.jpg",
+        title: "Cat Mask",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/masks/cats1.jpg"
+      }, 
+       {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/masks/cats2.jpg",
+        title: "Cat Mask",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/masks/cats2.jpg"
+      },
+
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/masks/ribbit1.jpg",
+        title: "Frog Mask",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/masks/ribbit1.jpg"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/masks/ribbit2.jpg",
+        title: "Frog Mask",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/masks/ribbit2.jpg"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/masks/giraffe1.jpg",
+        title: "Giraffe Mask",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/masks/giraffe1.jpg"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/masks/giraffe2.jpg",
+        title: "Giraffe Mask",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/masks/giraffe2.jpg"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/masks/teacher.jpg",
+        title: "Teachers Pet Mask",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/masks/teacher.jpg"
+      }
     ],
+    Tumblers:[],
+    Friendly420:[],
    
   }
 }) => {
@@ -151,7 +176,10 @@ export default ({
           <Header>{heading}</Header>
           <TabsControl>
             {Object.keys(tabs).map((tabName, index) => (
-              <TabControl key={index} active={activeTab === tabName} onClick={() => setActiveTab(tabName)}>
+              <TabControl 
+                 key={index} 
+                 active={activeTab === tabName} 
+                 onClick={() => setActiveTab(tabName)}>
                 {tabName}
               </TabControl>
             ))}
@@ -188,21 +216,21 @@ export default ({
                       {/* </CardRating> */}
                       {/* <CardReview>({card.reviews})</CardReview> */}
                     {/* </CardRatingContainer> */}
-                    <CardHoverOverlay
-                      variants={{
-                        hover: {
-                          opacity: 1,
-                          height: "auto"
-                        },
-                        rest: {
-                          opacity: 0,
-                          height: 0
-                        }
-                      }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      <CardButton>Get Quote</CardButton>
-                    </CardHoverOverlay>
+                    {/* <CardHoverOverlay */}
+                      {/* // variants={{ */}
+                        {/* // hover: { */}
+                          {/* // opacity: 1, */}
+                          {/* // height: "auto" */}
+                        {/* // }, */}
+                        {/* // rest: { */}
+                          {/* // opacity: 0, */}
+                          {/* // height: 0 */}
+                        {/* // } */}
+                      {/* // }} */}
+                      {/* // transition={{ duration: 0.3 }} */}
+                    {/* // > */}
+                      {/* <CardButton>Get Quote</CardButton> */}
+                    {/* </CardHoverOverlay> */}
                   </CardImageContainer>
                   <CardText>
                     <CardTitle>{card.title}</CardTitle>

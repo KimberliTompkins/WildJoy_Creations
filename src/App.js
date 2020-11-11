@@ -1,11 +1,12 @@
 import "tailwindcss/dist/base.css";
 import "styles/globalStyles.css";
 import React from "react";
+
 import { css } from "styled-components/macro"; //eslint-disable-line
 
 // import ComponentRenderer from "ComponentRenderer.js";
 import Home from "pages/Home.js";
-
+import Contact from "pages/ContactUs.js"
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ImplicitCallback } from '@okta/okta-react';
@@ -21,6 +22,9 @@ export default function App() {
         {/* <Route path="/components/:type/:name"> */}
           {/* <ComponentRenderer /> */}
         {/* </Route> */}
+        <Route path="/Contact">
+  <Contact/>
+</Route>  
         <Route path="/">
           <Home />
         </Route>

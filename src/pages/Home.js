@@ -11,7 +11,7 @@ import Footer from "components/footers/MiniCenteredFooter.js";
 
 import shirtIconImageSrc from "images/shirt-icon.svg";
 import celebrationIconImageSrc from "images/celebration-icon.svg";
-import photoIconImageSrc from "images/photo-icon.svg";
+import cupIconImageSrc from "images/cup.svg";
 import logo from "images/WJCLogo.png";
 import mainImage from "images/shirts/praisethelord.jpg";
 
@@ -25,7 +25,7 @@ export default () => {
     <AnimationRevealPage>
       <Hero
         heading={<>Custom Designs That<HighlightedText>Express your unique style</HighlightedText></>}
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description="We can customize clothing, bags, hats, cups, ect. Anything you need done for birthday celebrations, pictures, baby reveal,funny sayings. Something for every season or occasion."
         imageSrc={logo}
         imageCss={imageCss}
         imageDecoratorBlob={true}
@@ -43,19 +43,19 @@ export default () => {
             imageSrc: shirtIconImageSrc,
             title: "T-Shirts",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://google.com"
+            //url: "https://google.com"
           },
           {
-            imageSrc: photoIconImageSrc,
-            title: "Photo Creations",
+            imageSrc: cupIconImageSrc,
+            title: "Tumblers and Mugs",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://timerse.com"
+            //url: "https://timerse.com"
           },
           {
             imageSrc: celebrationIconImageSrc,
             title: "Everything Else",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://reddit.com"
+            //url: "https://reddit.com"
           }
         ]}
 
