@@ -69,10 +69,10 @@ export default ({
         url: "https://wildjoy.s3.us-east-2.amazonaws.com/praisethelord.jp"
       },
       {
-        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/merica.jpg",
-        title: "Merica",
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/squad.jpg",
+        title: "Squad",
         content: "",
-        url: "https://wildjoy.s3.us-east-2.amazonaws.com/merica.jpg"
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/squad.jpg"
       },
       {
         imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/letsdoit.jpg",
@@ -156,16 +156,69 @@ export default ({
         url: "https://wildjoy.s3.us-east-2.amazonaws.com/masks/teacher.jpg"
       }
     ],
-    Tumblers:[],
-    Friendly420:[],
+    Tumblers:[
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/tumblers/motherhood.jpg",
+        title: "Motherhood",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/tumblers/motherhood.jpg"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/tumblers/batman1.jpg",
+        title: "Batman",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/tumblers/batman1.jpg"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/tumblers/batman2.jpg",
+        title: "Batman",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/tumblers/batman2.jpg"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/tumblers/froggy.jpg",
+        title: "Froggy",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/tumblers/froggy.jpg"
+      }
+    ],
+    Friendly420:[
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/friendly420/hocuspocus.jpg",
+        title: "Hocus Pocus Tray",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/friendly420/hocuspocus.jpg"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/friendly420/MushroomTray.png",
+        title: "Mushroom Tray",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/friendly420/MushroomTray.png"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/friendly420/zen.jpg",
+        title: "Zen Tray",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/friendly420/zen.jpg"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/friendly420/redlady.jpg",
+        title: "Red Lady Shirt",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/friendly420/redlady.jpg"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/friendly420/underthesea.jpg",
+        title: "Under The Sea Shirt",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/friendly420/underthesea.jpg"
+      }
+     
+    ],
    
   }
 }) => {
-  /*
-   * To customize the tabs, pass in data using the `tabs` prop. It should be an object which contains the name of the tab
-   * as the key and value of the key will be its content (as an array of objects).
-   * To see what attributes are configurable of each object inside this array see the example above for "Starters".
-   */
+ 
   const tabsKeys = Object.keys(tabs);
   const [activeTab, setActiveTab] = useState(tabsKeys[0]);
 

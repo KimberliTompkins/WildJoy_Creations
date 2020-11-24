@@ -35,17 +35,17 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
+        "https://wildjoy.s3.us-east-2.amazonaws.com/testimonial/Yvonne.jpg",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Adam Cuppy"
+        " I absolutely love my new mask made by Rachael Cook of WildJoy Creations. Not only is it comfortable and easy to breathe in, it's made exceptionally well. I have hand washed it over and over and the glitter and lettering are perfect. Wherever I wear it people comment on how cute it is and how much they love it.  Thank you Rachael!",
+      customerName: "Yvonne M."
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1580852300654-03c803a14e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4.25&w=512&h=512&q=80",
+        "https://wildjoy.s3.us-east-2.amazonaws.com/testimonial/tammy.jpg",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Steven Marcetti"
+        "My fiance ordered a custom tumbler from WildJoy Creations for my birthday. Rachael created an amazing one of a kind tumbler specifically designed for me.  She took my love of frogs and mixed it up with color and sparkles in a tumbler I can use every day.  One of the best birthday gifts ever!",
+      customerName: "Tammy V."
     }
   ]
 }) => {

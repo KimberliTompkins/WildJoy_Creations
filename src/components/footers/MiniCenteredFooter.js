@@ -2,7 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import {Container as ContainerBase } from "components/misc/Layouts.js"
-import logo from "../../images/logo.svg";
+import logo from "../../images/WJCLogo.png"
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
@@ -35,29 +35,30 @@ export default () => {
       <Content>
         <Row>
           <LogoContainer>
-            <LogoImg src={logo} />
-            <LogoText>Treact</LogoText>
+          {/* <LogoImg src={logo} /> */}
+            <LogoText>WildJoy Creations</LogoText>
           </LogoContainer>
-          <LinksContainer>
+          {/* <LinksContainer>
             <Link href="#">Home</Link>
             <Link href="#">About</Link>
             <Link href="#">Contact Us</Link>
             <Link href="#">Blog</Link>
             <Link href="#">Reviews</Link>
-          </LinksContainer>
+          </LinksContainer> */}
           <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
+            <span>Join our Facebook group to see all we have to offer</span>
+            <SocialLink href="https://www.facebook.com/groups/749914215571346">
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://twitter.com">
+            {/* <SocialLink href="https://twitter.com">
               <TwitterIcon />
             </SocialLink>
             <SocialLink href="https://youtube.com">
-              <YoutubeIcon />
-            </SocialLink>
+              <YoutubeIcon /> 
+            </SocialLink>*/}
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, Treact Inc. All Rights Reserved.
+            &copy; Copyright 2020, CherrieDragon Design. All Rights Reserved.
           </CopyrightText>
         </Row>
       </Content>

@@ -26,8 +26,10 @@ export default () => {
       <Hero
         heading={<>Custom Designs That<HighlightedText>Express your unique style</HighlightedText></>}
         description="We can customize clothing, bags, hats, cups, ect. Anything you need done for birthday celebrations, pictures, baby reveal,funny sayings. Something for every season or occasion."
+        socialText = "Come join us in our Facebook group gpt for fun drawings and giveaways."
         imageSrc={logo}
-        imageCss={imageCss}
+        // imageSrc="https://wildjoy.s3.us-east-2.amazonaws.com/Logo2.jpg"
+        // imageCss={imageCss}
         imageDecoratorBlob={true}
         primaryButtonText="Get A Quote"
         
@@ -42,19 +44,19 @@ export default () => {
           {
             imageSrc: shirtIconImageSrc,
             title: "T-Shirts",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
+            description: "Funny sayings, cute and edgy designs",
             //url: "https://google.com"
           },
           {
             imageSrc: cupIconImageSrc,
             title: "Tumblers and Mugs",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
+            description: "High quality, custom and beautiful",
             //url: "https://timerse.com"
           },
           {
             imageSrc: celebrationIconImageSrc,
             title: "Everything Else",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
+            description: "If you can dream it up we can make it a reality",
             //url: "https://reddit.com"
           }
         ]}
@@ -76,7 +78,7 @@ export default () => {
       />
 
 
-      {/* <Footer /> */}
+      <Footer />
     </AnimationRevealPage>
   );
 }

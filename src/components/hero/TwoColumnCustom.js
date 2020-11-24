@@ -5,6 +5,7 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro";
 
 import Header from "../headers/light";
+import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 
 import ReactModalAdapter from "../../helpers/ReactModalAdapter.js";
 import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
@@ -12,11 +13,11 @@ import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
 import { ReactComponent as PlayIcon } from "feather-icons/dist/icons/play-circle.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
-import { ReactComponent as SvgDecoratorBlob2 } from "../../images/dot-pattern.svg";
+import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-2.svg";
 import DesignIllustration from "../../images/design-illustration.svg";
 
 const Container = tw.div`relative`;
-const TwoColumn = tw.div`flex flex-col lg:flex-row md:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
+const TwoColumn = tw.div`flex flex-col lg:flex-row md:items-center max-w-screen-xl mx-auto py-20 md:py-2`;
 const LeftColumn = tw.div`relative lg:w-6/12 lg:pr-12 flex-shrink-0 text-center lg:text-left`;
 const RightColumn = tw.div`relative mt-12 lg:mt-0 flex flex-col justify-center`;
 
@@ -57,10 +58,18 @@ const StyledModal = styled(ReactModalAdapter)`
   }
 `;
 const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-primary-500`;
+const SocialLinksContainer = tw.div`ml-20`;
+const SocialLink = styled.a`
+  ${tw`cursor-pointer inline-block text-gray-600 hover:text-gray-800 transition duration-300 mx-4`}
+  svg {
+    ${tw`w-6 h-6`}
+  }
+`;
 
 export default ({
   heading = "Wild Joy Creations",
- description="Custom T-shirts and crafts",
+ description="",
+ socialText="",
   primaryButtonText="Get Started",
   primaryButtonUrl="#",
   // watchVideoButtonText="Watch Video",
@@ -75,31 +84,42 @@ export default ({
 
   return (
     <>
-    <Header /> 
+    {/* <Header />  */}
       <Container>
         <TwoColumn>
           <LeftColumn>
-            <Heading>{heading}</Heading>
-            <Paragraph>{description}</Paragraph>
-            <Actions>
-              <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
+          <IllustrationContainer>
+              <img
+                css={imageCss}
+                src={imageSrc}
+                alt="Hero"
+              />
+             
+            </IllustrationContainer>
+            {/* <Actions> */}
+              {/* <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton> */}
               {/* <WatchVideoButton onClick={toggleModal}> */}
                 {/* <span className="playIconContainer"> */}
                   {/* <PlayIcon className="playIcon" /> */}
                 {/* </span> */}
                 {/* <span className="playText">{watchVideoButtonText}</span> */}
               {/* </WatchVideoButton> */}
-            </Actions>
+            {/* </Actions> */}
           </LeftColumn>
           <RightColumn>
-            <IllustrationContainer>
-              <img
-                css={imageCss}
-                src={imageSrc}
-                alt="Hero"
-              />
-              {imageDecoratorBlob && <DecoratorBlob2 />}
-            </IllustrationContainer>
+          <Heading>{heading}</Heading>
+            <Paragraph>{description}
+            {/* <br/><br/>
+            {socialText} */}
+            <SocialLinksContainer>
+              <SocialLink href="https://www.facebook.com/groups/749914215571346">
+              <FacebookIcon /> 
+              </SocialLink>
+            </SocialLinksContainer>
+            </Paragraph>
+            
+            {imageDecoratorBlob && <DecoratorBlob2 />}
+            
           </RightColumn>
         </TwoColumn>
         <DecoratorBlob1 />
