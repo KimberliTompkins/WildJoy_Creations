@@ -58,7 +58,7 @@ export default () => {
             </SocialLink>*/}
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, CherrieDragon Design. All Rights Reserved.
+            Kimberli Tompkins Design 2020.
           </CopyrightText>
         </Row>
       </Content>

@@ -66,7 +66,7 @@ export default ({
         imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/praisethelord.jpg",
         title: "Pass the Ammunition",
         content: "",
-        url: "https://wildjoy.s3.us-east-2.amazonaws.com/praisethelord.jp"
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/praisethelord.jpg"
       },
       {
         imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/squad.jpg",
@@ -180,7 +180,15 @@ export default ({
         title: "Froggy",
         content: "",
         url: "https://wildjoy.s3.us-east-2.amazonaws.com/tumblers/froggy.jpg"
+      },
+      {
+        imageSrc:"https://wildjoy.s3.us-east-2.amazonaws.com/tumblers/Pebbles.png",
+        title: "Pebbles",
+        content: "",
+        url: "https://wildjoy.s3.us-east-2.amazonaws.com/tumblers/Pebbles.png"
       }
+
+      
     ],
     Friendly420:[
       {

@@ -118,7 +118,8 @@ export default ({
             </SocialLinksContainer>
             </Paragraph>
             
-            {imageDecoratorBlob && <DecoratorBlob2 />}
+            {/* {imageDecoratorBlob && <DecoratorBlob2 />} */}
+             {imageDecoratorBlob}
             
           </RightColumn>
         </TwoColumn>

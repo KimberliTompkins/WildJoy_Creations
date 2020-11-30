@@ -17,15 +17,15 @@ import logo from "images/WJCLogo.png";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
-  const HighlightedText = tw.span`text-orange-400 px-6 transform -skew-x-12 inline-block`;
+  const HighlightedText = tw.span` text-orange-400 px-1 transform -skew-x-12 inline-block`;
   const HighlightedTextInverse = tw.span`text-primary-500 px-6 transform -skew-y-12 inline-block`;
   const Description = tw.span`inline-block mt-8`;
   const imageCss = tw`rounded-xl`;
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>Custom Designs That<HighlightedText>Express your unique style</HighlightedText></>}
-        description="We can customize clothing, bags, hats, cups, ect. Anything you need done for birthday celebrations, pictures, baby reveal,funny sayings. Something for every season or occasion."
+        heading={<>Custom designs that<HighlightedText>express your unique style</HighlightedText></>}
+        description="Let us help make life’s celebrations and memorable moments special with a customized gift item!  We specialize in clothing, hats and tumblers, but we love the opportunity to discuss new ideas, too!  Whether it’s a gender reveal, gag gift, or a special holiday, birthday, anniversary, retirement, or ‘just because’ item, we have something for any occasion."
         socialText = "Come join us in our Facebook group gpt for fun drawings and giveaways."
         imageSrc={logo}
         // imageSrc="https://wildjoy.s3.us-east-2.amazonaws.com/Logo2.jpg"
@@ -44,19 +44,19 @@ export default () => {
           {
             imageSrc: shirtIconImageSrc,
             title: "T-Shirts",
-            description: "Funny sayings, cute and edgy designs",
+            description: "Anything from sweet & innocent to sassy & edgy",
             //url: "https://google.com"
           },
           {
             imageSrc: cupIconImageSrc,
             title: "Tumblers and Mugs",
-            description: "High quality, custom and beautiful",
+            description: "Handcrafted and uniquely beautiful",
             //url: "https://timerse.com"
           },
           {
             imageSrc: celebrationIconImageSrc,
             title: "Everything Else",
-            description: "If you can dream it up we can make it a reality",
+            description: "The only limit is your imagination",
             //url: "https://reddit.com"
           }
         ]}
@@ -68,7 +68,7 @@ export default () => {
       <TabGrid
         heading={
           <>
-            A few of my recent <HighlightedText>projects.</HighlightedText>
+            A few of our recent <HighlightedText>projects.</HighlightedText>
           </>
         }
       />
